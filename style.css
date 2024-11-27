@@ -1,0 +1,95 @@
+html,body {
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1 {
+    background-image: url(images/image1.png);
+    min-height: 100%;
+}
+.img2 {
+    background-image: url(images/image2.png);
+    min-height: 100%;
+}
+.img3 {
+    background-image: url(images/image3.png);
+    min-height: 100%;
+}
+.img1,.img2,.img3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text,.text3 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+.bg {
+    background-color: #313534;
+    color: #fff;
+    padding: 20px;
+}
+.section-one {
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.section-one h2 {
+    text-align: center;
+}
+.section-two{
+    background-color: #313534;
+    color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.section-two h2 {
+    text-align: center;
+}
+.section-three{
+    background-color: #313534;
+    color: white;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+.section-three h2 {
+    text-align: center;
+}
+@media (max-width:580px) {
+    .text3 {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+}
+@media (max-width:450px) {
+    .text {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+}
